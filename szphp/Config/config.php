@@ -22,6 +22,7 @@ return array(
     'DB_DATABASE'                   => '',          //数据库名称
     'DB_PREFIX'                     => '',          //表前缀
     'DB_BACKUP'                     => 'backup/',   //数据库备份目录
+    'DB_PCONNECT'                   => false,       //数据库持久链接
     /********************************表单TOKEN令牌********************************/
     'TOKEN_ON'                      => FALSE,       //令牌状态
     'TOKEN_NAME'                    => '__TOKEN__', //令牌的表单name
@@ -108,7 +109,7 @@ return array(
     'WATER_POS'                     => 9,           //位置  1~9九个位置  0为随机
     'WATER_PCT'                     => 60,          //透明度
     'WATER_QUALITY'                 => 80,          //压缩比
-    'WATER_TEXT'                    => 'WWW.HOUDUNWANG.COM', //水印文字
+    'WATER_TEXT'                    => 'WWW.SHENZHIWANG.COM', //水印文字
     'WATER_TEXT_COLOR'              => '#f00f00',   //文字颜色
     'WATER_TEXT_SIZE'               => 12,          //文字大小
     /********************************图片缩略图********************************/
@@ -143,7 +144,7 @@ return array(
     'TPL_TAGS'                      => array(),     //扩展标签,多个标签用逗号分隔
     'TPL_ERROR'                     => 'error.html',     //错误信息模板
     'TPL_SUCCESS'                   => 'success.html',   //正确信息模板
-    'TPL_ENGINE'                    => 'HD',        //模板引擎 HD,Smarty
+    'TPL_ENGINE'                    => 'SZ',        //模板引擎 SZ,Smarty
     'TPL_TAG_LEFT'                  => '<',         //左标签
     'TPL_TAG_RIGHT'                 => '>',         //右标签
     /********************************购物车参数********************************/
